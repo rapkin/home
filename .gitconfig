@@ -1,0 +1,9 @@
+[alias]
+	hist = log --pretty=format:'%Cgreen%h %Creset%ad | %s%d %Cblue[%an]' --graph --date=short
+[user]
+	name = rapkin
+	email = mikola.parfenyuck@gmail.com
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
