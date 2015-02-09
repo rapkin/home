@@ -1,5 +1,12 @@
 [alias]
 	hist = log --pretty=format:'%Cgreen%h %Creset%ad | %s%d %Cblue[%an]' --graph --date=short
+	h = log --pretty=format:'%Cgreen%h %Creset%ad | %s%d %Cblue[%an]' --graph --date=short
+	st = status
+	s = status
+	ch = checkout
+	p = push
+	c = commit -am
+	a = add .
 [user]
 	name = rapkin
 	email = mikola.parfenyuck@gmail.com
@@ -9,3 +16,5 @@
 	smudge = git media smudge %f
 [push]
 	default = simple
+[core]
+	editor = subl

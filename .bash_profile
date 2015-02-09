@@ -19,12 +19,6 @@ alias coffeec="coffee --bare --watch --output ./js/ --compile ./coffee/*.coffee"
 alias cofec="coffeec"
 alias fuck='sudo $(history -p \!\!)'
 
-alias gits="git status"
-alias gith="git hist"
-alias gitp="git push origin master"
-alias gitc="git commit -a -m"
-alias gita="git add ."
-
 alias data="cd /Volumes/DATA"
 alias dev="data; cd dev"
 alias web="dev; cd web"
