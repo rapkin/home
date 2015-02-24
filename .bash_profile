@@ -14,6 +14,7 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 source ~/.profile
 
 alias c="clear"
+alias o="open ."
 alias op="subl . ; www index.html"
 alias www="open -a yandex"
 alias coffeec="coffee --bare --watch --output ./js/ --compile ./coffee/*.coffee"
