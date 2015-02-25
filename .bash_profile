@@ -1,6 +1,5 @@
 export PATH="/usr/local/bin:$PATH"
 export EDITOR='subl -w'
-export BROWSER='yandex'
 
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
@@ -16,7 +15,6 @@ source ~/.profile
 alias c="clear"
 alias o="open ."
 alias op="subl . ; www index.html"
-alias www="open -a yandex"
 alias coffeec="coffee --bare --watch --output ./js/ --compile ./coffee/*.coffee"
 alias cofec="coffeec"
 alias fuck='sudo $(history -p \!\!)'
