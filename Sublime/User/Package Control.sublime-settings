@@ -1,0 +1,17 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Future Funk - Codeception",
+		"Future Funk - Color Scheme",
+		"Git",
+		"Markdown Extended",
+		"Package Control"
+	]
+}
