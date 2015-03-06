@@ -9,9 +9,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ColorPicker",
-		"Vintage"
+		"Vintage",
+		"ColorPicker"
 	],
+	"binary_file_patterns": ["node_modules/*", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
 	"line_padding_top": 4,
 	"margin": 6,
 	"open_files_in_new_window": false,
