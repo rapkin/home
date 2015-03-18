@@ -4,16 +4,19 @@
 	],
 	"installed_packages":
 	[
+		"3024 Color Scheme",
 		"AutoFileName",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"ColorPicker",
+		"Dayle Rees Color Schemes",
 		"Emmet",
-		"Future Funk - Codeception",
-		"Future Funk - Color Scheme",
 		"Git",
 		"Jade",
 		"Markdown Extended",
-		"Package Control"
+		"Package Control",
+		"Sass",
+		"Stylus",
+		"Tomorrow Color Schemes"
 	]
 }
