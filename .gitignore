@@ -4,5 +4,8 @@
 !.bash_profile
 !.gitconfig
 !Sublime/
+!templates/
 Sublime/User/Package Control.cache/*
 Sublime/User/Package Control.last-run
+
+Sublime/Theme - Soda/.DS_Store

@@ -26,8 +26,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ColorPicker",
-		"Vintage"
+		"Vintage",
+		"ColorPicker"
 	],
 	"line_padding_top": 4,
 	"margin": 6,

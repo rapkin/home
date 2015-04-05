@@ -14,7 +14,7 @@ source ~/.profile
 
 alias c="clear"
 alias o="open ."
-alias op="subl . ; www index.html"
+alias op="subl ."
 alias coffeec="coffee --bare --watch --output ./js/ --compile ./coffee/*.coffee"
 alias cofec="coffeec"
 alias fuck='sudo $(history -p \!\!)'
@@ -23,23 +23,12 @@ alias data="cd /Volumes/DATA"
 alias dev="data; cd dev"
 alias web="dev; cd web"
 alias rb="dev; cd ruby"
+alias cof='dev; cd coffee'
 
 alias ebash="subl ~/.bash_profile"
 alias drop="rm -rf ../\${PWD##*/} ; cd .."
-alias rb_init='git init;
-mkdir spec lib;
-touch Gemfile .rspec .gitignore lib/main.rb spec/main_spec.rb;
-echo "source \"https://rubygems.org\"
-group :test do
-    gem \"nyan-cat-formatter\"
-end" > Gemfile;
-echo "--color
---format NyanCatFormatter" > .rspec;
-echo ".DS_Store
-Gemfile.loc" > .gitignore;
-echo "require \"main\"" > spec/main_spec.rb;
-bundler;
-subl .'
+alias rb_init="cp -R ~/templates/ruby/ .; bundler; subl ."
+alias web_init="cp -R ~/templates/web/ .; sudo npm install; subl ."
 
 alias la='ls -A'
 alias lsd="ls -al | awk '{k=0;s=0;for(i=0;i<=8;i++){;k+=((substr(\$1,i+2,1)~/[rwxst]/)*2^(8-i));};j=4; for(i=4;i<=10;i+=3){;s+=((substr(\$1,i,1)~/[stST]/)*j);j/=2;};if(k){;printf(\"%0o%0o \",s,k);};print;}'"
