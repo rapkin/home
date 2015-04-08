@@ -1,0 +1,46 @@
+[
+{
+  "keys": ["alt+super+right"],
+  "command": "bh_key",
+  "args":
+  {
+    "no_outside_adj": true,
+    "lines" : true,
+    "plugin":
+    {
+      "type": ["__all__"],
+      "command": "bh_modules.bracketselect",
+      "args": {"select": "right"}
+    }
+  }
+  },
+  {
+    "keys": ["alt+super+left"],
+    "command": "bh_key",
+    "args":
+    {
+      "no_outside_adj": true,
+      "lines" : true,
+      "plugin":
+      {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect",
+        "args": {"select": "left"}
+      }
+    }
+    },
+    {
+      "no_outside_adj": true,
+      "keys": ["alt+super+d"],
+      "command": "bh_key",
+      "args":
+      {
+        "lines" : true,
+        "plugin":
+        {
+          "type": ["__all__"],
+          "command": "bh_modules.bracketselect"
+        }
+      }
+    }
+    ]
