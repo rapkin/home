@@ -32,7 +32,7 @@ gulp.task 'lint', ->
 gulp.task 'coffee', ->
   gulp.src 'coffee/*.coffee'
     .pipe plumber()
-    .pipe coffee()
+    .pipe coffee bare: true
     .pipe concat 'main.js'
     .pipe gulp.dest 'dist'
     .pipe livereload()

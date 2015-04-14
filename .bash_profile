@@ -14,7 +14,7 @@ source ~/.profile
 
 alias c="clear"
 alias o="open ."
-alias op="subl ."
+alias s="subl ./"
 alias coffeec="coffee --bare --watch --output ./js/ --compile ./coffee/*.coffee"
 alias cofec="coffeec"
 alias fuck='sudo $(history -p \!\!)'
