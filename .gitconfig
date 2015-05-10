@@ -1,7 +1,5 @@
 [alias]
-	hist = log --pretty=format:'%Cgreen%h %Creset%ad | %s%d %Cblue[%an]' --graph --date=short
-	h = log --pretty=format:'%Cgreen%h %Creset%ad | %s%d %Cblue[%an]' --graph --date=short
-	st = status
+	h = log --pretty=format:'%Cgreen%h %Creset| %s%d %Cblue[%an]' --graph --date=short
 	s = status
 	ch = checkout
 	p = push
