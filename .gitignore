@@ -1,11 +1,17 @@
 /*/
 /*
+
 !.gitignore
 !.bash_profile
+!.zsh/
+!.zshrc
+!.aliases
 !.gitconfig
 !Sublime/
 !templates/
+
 Sublime/User/Package Control.cache/*
 Sublime/User/Package Control.last-run
-
 Sublime/Theme - Soda/.DS_Store
+Sublime/User/Package Control.merged-ca-bundle
+Sublime/User/Package Control.system-ca-bundle

@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"binary_file_patterns":
 	[
 		"node_modules/*",
