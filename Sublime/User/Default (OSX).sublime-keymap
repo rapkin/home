@@ -1,11 +1,11 @@
 [
   { "keys": ["alt+b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
   {
-    "keys": ["super+0"],
+    "keys": ["alt+]"],
     "command": "swap_brackets"
   },
   {
-    "keys": ["super+'"],
+    "keys": ["alt+'"],
     "command": "bh_key",
     "args": {
       "lines" : true,
@@ -25,7 +25,7 @@
     "args": {"file": "Packages/User/console.log.sublime-macro"}
   },
   {
-    "keys": ["alt+super+right"],
+    "keys": ["alt+k"],
     "command": "bh_key",
     "args": {
       "no_outside_adj": true,
@@ -38,7 +38,7 @@
     }
   },
   {
-    "keys": ["alt+super+left"],
+    "keys": ["alt+j"],
     "command": "bh_key",
     "args": {
       "no_outside_adj": true,
