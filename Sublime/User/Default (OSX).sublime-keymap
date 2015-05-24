@@ -1,46 +1,65 @@
 [
-{
-  "keys": ["alt+super+right"],
-  "command": "bh_key",
-  "args":
+  { "keys": ["alt+b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
   {
-    "no_outside_adj": true,
-    "lines" : true,
-    "plugin":
-    {
-      "type": ["__all__"],
-      "command": "bh_modules.bracketselect",
-      "args": {"select": "right"}
+    "keys": ["super+0"],
+    "command": "swap_brackets"
+  },
+  {
+    "keys": ["super+'"],
+    "command": "bh_key",
+    "args": {
+      "lines" : true,
+      "plugin": {
+        "type": ["single_quote", "double_quote"],
+        "command": "bh_modules.swapquotes"
+      }
     }
-  }
+  },
+  {
+    "keys": ["alt+v"],
+    "command": "bh_toggle_high_visibility"
+  },
+  {
+    "keys": ["alt+l"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/console.log.sublime-macro"}
+  },
+  {
+    "keys": ["alt+super+right"],
+    "command": "bh_key",
+    "args": {
+      "no_outside_adj": true,
+      "lines" : true,
+      "plugin": {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect",
+        "args": {"select": "right"}
+      }
+    }
   },
   {
     "keys": ["alt+super+left"],
     "command": "bh_key",
-    "args":
-    {
+    "args": {
       "no_outside_adj": true,
       "lines" : true,
-      "plugin":
-      {
+      "plugin": {
         "type": ["__all__"],
         "command": "bh_modules.bracketselect",
         "args": {"select": "left"}
       }
     }
-    },
-    {
-      "no_outside_adj": true,
-      "keys": ["alt+super+d"],
-      "command": "bh_key",
-      "args":
-      {
-        "lines" : true,
-        "plugin":
-        {
-          "type": ["__all__"],
-          "command": "bh_modules.bracketselect"
-        }
+  },
+  {
+    "no_outside_adj": true,
+    "keys": ["alt+a"],
+    "command": "bh_key",
+    "args": {
+      "lines" : true,
+      "plugin": {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect"
       }
     }
-    ]
+  }
+]

@@ -13,11 +13,13 @@
 		"Emmet",
 		"Git",
 		"Jade",
+		"lispindent",
 		"Markdown Extended",
 		"MarkdownEditing",
 		"Package Control",
 		"Sass",
 		"Stylus",
+		"SublimeREPL",
 		"Tomorrow Color Schemes"
 	]
 }
