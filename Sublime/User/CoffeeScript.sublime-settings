@@ -1,9 +1,0 @@
-{
-  "noWrapper": true,
-  "watchOnSave": true,
-  "watchOnModified": false,
-  "compileOnSave": true,
-  "showOutputOnSave": true,
-  "checkSyntaxOnSave": true,
-  "compileDir": "../js"
-}
