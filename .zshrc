@@ -40,6 +40,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='subl -w'
 
 source ~/.aliases
+source ~/.bashrc
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
