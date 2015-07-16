@@ -25,9 +25,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ColorPicker",
-		"Markdown",
 		"Vintage",
+		"Markdown",
+		"ColorPicker",
 		"MarkdownEditing"
 	],
 	"line_padding_top": 4,
