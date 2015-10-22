@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -19,6 +20,7 @@
 		"Package Control",
 		"paredit",
 		"Sass",
+		"Smarty",
 		"Stylus",
 		"SublimeREPL",
 		"Tomorrow Color Schemes"

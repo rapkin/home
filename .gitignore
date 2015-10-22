@@ -5,6 +5,7 @@
 !.bash_profile
 !.bashrc
 !.zsh/
+!.bin/
 !.zshrc
 !.aliases
 !.gitconfig

@@ -20,16 +20,16 @@
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
-	"font_face": "Inconsolata for Powerline",
-	"font_size": 14,
+	"font_face": "Monaco",
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown",
 		"ColorPicker",
-		"MarkdownEditing"
+		"Markdown",
+		"MarkdownEditing",
+		"Vintage"
 	],
 	"line_padding_top": 4,
 	"margin": 6,
