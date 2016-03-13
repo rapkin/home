@@ -15,16 +15,19 @@
 		"Emmet",
 		"Git",
 		"Jade",
+		"Jinja2",
 		"LESS",
 		"lispindent",
 		"Markdown Extended",
 		"MarkdownEditing",
+		"MasmAssembly",
 		"Package Control",
 		"paredit",
 		"Sass",
 		"Smarty",
 		"Stylus",
 		"SublimeREPL",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"x86 and x86_64 Assembly"
 	]
 }

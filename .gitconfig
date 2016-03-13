@@ -15,7 +15,7 @@
 [push]
 	default = simple
 [core]
-	editor = subl
+	editor = subl -n -w
 	excludesfile = /Users/rapkin/.gitignore_global
 [filter "hawser"]
 	clean = git hawser clean %f

@@ -21,3 +21,37 @@ alias web_init="cp -R ~/templates/web/ .; sudo npm install; subl ."
 alias htop="sudo htop"
 alias la='ls -A'
 alias lsd="ls -al | awk '{k=0;s=0;for(i=0;i<=8;i++){;k+=((substr(\$1,i+2,1)~/[rwxst]/)*2^(8-i));};j=4; for(i=4;i<=10;i+=3){;s+=((substr(\$1,i,1)~/[stST]/)*j);j/=2;};if(k){;printf(\"%0o%0o \",s,k);};print;}'"
+
+function asm {
+    echo 'REMOVING'
+    rm $1
+    rm $1.o
+    echo 'COMPILING'
+    as $1.asm -o $1.o
+    echo 'LINKING'
+    ld $1.o -macosx_version_min 10.6 -e _main -o $1
+    echo '############ STARTING'
+    rm $1.o
+    ./$1
+}
+
+function nasm {
+    _nasm $1 macho
+}
+
+function nasm64 {
+    _nasm $1 macho64
+}
+
+function _nasm {
+    echo 'REMOVING'
+    rm $1
+    rm $1.o
+    echo 'COMPILING'
+    /usr/local/bin/nasm -f $2 $1.asm
+    echo 'LINKING'
+    ld -macosx_version_min 10.7.0 -lSystem -o $1 $1.o
+    echo '############ STARTING'
+    rm $1.o
+    ./$1
+}

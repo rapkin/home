@@ -2,6 +2,7 @@
 	"always_show_minimap_viewport": false,
 	"binary_file_patterns":
 	[
+		"bower_components/*",
 		"node_modules/*",
 		"*.jpg",
 		"*.jpeg",
@@ -17,7 +18,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"font_face": "Monaco",
