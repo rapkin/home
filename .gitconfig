@@ -3,7 +3,7 @@
 	s = status
 	ch = checkout
 	p = push
-	c = commit -a
+	c = commit -m
 	a = add .
 [user]
 	name = rapkin
