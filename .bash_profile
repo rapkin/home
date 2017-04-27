@@ -1,5 +1,5 @@
 export PATH="/usr/local/bin:$PATH"
-export EDITOR='subl -w'
+export EDITOR='sublime -w'
 
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1

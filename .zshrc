@@ -37,7 +37,7 @@ export PATH="/Users/rapkin/.rvm/gems/ruby-2.1.4/bin:/Users/rapkin/.rvm/gems/ruby
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR='subl -w'
+export EDITOR='sublime -w'
 
 source ~/.aliases
 source ~/.bashrc
