@@ -18,5 +18,6 @@ Sublime/*
 !Sublime/User
 Sublime/User/*
 !Sublime/User/*.sublime-settings
+!README.md
 
 *.db
