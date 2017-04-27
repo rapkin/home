@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"3024 Color Scheme",
+		"A File Icon",
 		"AutoFileName",
 		"Better CoffeeScript",
 		"BracketHighlighter",
@@ -21,9 +22,11 @@
 		"Markdown Extended",
 		"MarkdownEditing",
 		"MasmAssembly",
+		"Material Theme",
+		"One Dark Color Scheme",
 		"Package Control",
 		"paredit",
-		"Rust",
+		"Rust Enhanced",
 		"Sass",
 		"Smarty",
 		"Stylus",

@@ -14,7 +14,8 @@
 
 Sublime/User/Package Control.cache/*
 Sublime/User/Package Control.last-run
-Sublime/Theme - Soda/.DS_Store
+Sublime/*
+!Sublime/User
 Sublime/User/*
 !Sublime/User/*.sublime-settings
 

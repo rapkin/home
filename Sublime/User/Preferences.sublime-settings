@@ -18,7 +18,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"font_face": "Monaco",
@@ -47,7 +47,7 @@
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
 	"tab_size": 4,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }
