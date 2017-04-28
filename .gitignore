@@ -12,12 +12,10 @@
 !Sublime/
 !templates/
 
-Sublime/User/Package Control.cache/*
-Sublime/User/Package Control.last-run
-Sublime/*
-!Sublime/User
-Sublime/User/*
-!Sublime/User/*.sublime-settings
+Sublime/Package Control.cache/*
+Sublime/Package Control.last-run
+!Sublime
 !README.md
 
 *.db
+.DS_Store
