@@ -1,21 +1,28 @@
 /*/
 /*
 
-!.gitignore
-!.bash_profile
-!.bashrc
-!.zsh/
-!.bin/
-!.zshrc
-!.aliases
-!.gitconfig
-!Sublime/
-!templates/
+!/.gitignore
+!/.bash_profile
+!/.bashrc
+!/.bin/
+!/.zshrc
+!/.aliases
+!/.gitconfig
 
-Sublime/Package Control.cache/*
-Sublime/Package Control.last-run
-!Sublime
-!README.md
+!/.oh-my-zsh/
+/.oh-my-zsh/*
+!/.oh-my-zsh/themes/
+/.oh-my-zsh/themes/*
+!/.oh-my-zsh/themes/rapkin.zsh-theme
+
+!/Sublime/
+/Sublime/Package Control.cache/
+/Sublime/Package Control.last-run
+/Sublime/Color Highlighter/ColorPicker/
+!/README.md
 
 *.db
 .DS_Store
+*.crt
+*.merged-ca-bundle
+*.user-ca-bundle
