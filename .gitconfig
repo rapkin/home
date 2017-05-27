@@ -4,6 +4,7 @@
 	ch = checkout
 	p = push
 	c = commit -m
+	ca = commit -a -m
 	a = add .
 	d = diff
 [user]
