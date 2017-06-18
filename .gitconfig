@@ -3,6 +3,7 @@
 	s = status
 	ch = checkout
 	p = push
+	pa = push --all
 	c = commit -m
 	ca = commit -a -m
 	a = add .
