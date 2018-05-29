@@ -19,7 +19,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/freshcut.tmTheme",
+	"color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"font_face": "Monaco",
@@ -28,6 +28,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"AutoFileName",
 		"Markdown",
 		"MarkdownEditing",
 		"Vintage"
