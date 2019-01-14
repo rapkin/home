@@ -3,6 +3,8 @@ alias o="open ."
 alias s="sublime ./"
 alias co="code ./"
 alias d="cd ~/dev"
+alias cat="bat"
+alias docker-start="~/start-docker.sh"
 
 alias fuck='sudo $(fc -ln -1)'
 

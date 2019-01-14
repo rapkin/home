@@ -6,6 +6,11 @@ git clone https://github.com/rapkin/home
 cp -r ./home .
 ```
 
+Install bat (syntax highlighting)
+```
+brew install bat
+```
+
 Install Sublime settings
 ```
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime

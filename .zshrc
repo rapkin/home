@@ -47,3 +47,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### My bins
 export PATH="/Users/rapkin/.bin:$PATH"
+
+# added by Miniconda3 installer
+export PATH="/Users/rapkin/miniconda3/bin:$PATH"
+
+# PostgreSql
+export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"

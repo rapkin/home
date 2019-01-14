@@ -13,3 +13,6 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 source ~/.profile
 source ~/.aliases
 source ~/.bashrc
+
+# added by Miniconda3 installer
+export PATH="/Users/rapkin/miniconda3/bin:$PATH"
