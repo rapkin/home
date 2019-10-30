@@ -21,7 +21,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR='code'
+export EDITOR='code -n -w'
 
 source ~/.aliases
-source ~/.bashrc
+source ~/.profile

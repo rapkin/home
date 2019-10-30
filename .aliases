@@ -4,6 +4,7 @@ alias s="sublime ./"
 alias co="code ./"
 alias d="cd ~/dev"
 alias docker-start="~/start-docker.sh"
+alias dops="docker-pretty-ps"
 
 alias fuck='sudo $(fc -ln -1)'
 

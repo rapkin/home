@@ -11,6 +11,11 @@ Install bat (syntax highlighting)
 brew install bat
 ```
 
+Install docker-pretty-ps
+```
+pip3 install docker-pretty-ps
+```
+
 Install Sublime settings
 ```
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime

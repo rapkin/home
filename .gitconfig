@@ -18,8 +18,7 @@
 [push]
 	default = simple
 [core]
-	editor = sublime -n -w
-	excludesfile = /Users/rapkin/.gitignore_global
+	editor = code -n -w
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
