@@ -24,4 +24,3 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='code -n -w'
 
 source ~/.aliases
-source ~/.profile
