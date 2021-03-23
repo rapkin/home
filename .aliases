@@ -1,9 +1,7 @@
 alias c="clear"
 alias o="open ."
-alias s="sublime ./"
 alias co="code ./"
 alias d="cd ~/dev"
-alias docker-start="~/start-docker.sh"
 alias dops="docker-pretty-ps"
 
 alias fuck='sudo $(fc -ln -1)'
@@ -12,12 +10,6 @@ alias ebash="code ~/.bash_profile"
 alias ezsh="code ~/.zshrc"
 alias eomzsh="code ~/.oh-my-zsh"
 
-alias ssh-dev="ssh -i ~/keys/fineudev.pem centos@dev-events-cy.financemagnates.local"
-alias ssh-btc="ssh -i ~/keys/fineudev.pem centos@btconfio.financemagnates.local"
-alias ssh-ifx="ssh -i ~/keys/fineudev.pem centos@ifxexpo.financemagnates.local"
-alias ssh-lon="ssh -i ~/keys/prod.pem centos@ifxexpo-deployment.financemagnates.local"
-
 alias htop="sudo htop"
 alias la='ls -A'
 alias lsd="ls -al | awk '{k=0;s=0;for(i=0;i<=8;i++){;k+=((substr(\$1,i+2,1)~/[rwxst]/)*2^(8-i));};j=4; for(i=4;i<=10;i+=3){;s+=((substr(\$1,i,1)~/[stST]/)*j);j/=2;};if(k){;printf(\"%0o%0o \",s,k);};print;}'"
-
